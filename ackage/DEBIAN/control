@@ -1,8 +1,0 @@
-Package: skillbox-ca-config
-Version: 1.0
-Section: custom
-Priority: optional
-Architecture: all
-Depends: easy-rsa
-Maintainer: student@skillbox.local
-Description: Конфигурация Удостоверяющего Центра для финальной работы
