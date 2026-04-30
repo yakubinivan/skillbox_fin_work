@@ -1,0 +1,5 @@
+set_var EASYRSA_REQ_COUNTRY    "RU"
+set_var EASYRSA_REQ_PROVINCE   "Gomel"
+set_var EASYRSA_REQ_CITY       "Gomel"
+set_var EASYRSA_REQ_ORG        "Skillbox-DevOps"
+set_var EASYRSA_REQ_EMAIL      "yakubin.ivan@gmail.com"
