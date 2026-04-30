@@ -1,0 +1,6 @@
+global:
+  scrape_interval: 15s
+scrape_configs:
+  - job_name: 'servers'
+    static_configs:
+      - targets: ['89.169.137.5:9100', '111.88.246.94:9100', '62.84.125.193:9100']
