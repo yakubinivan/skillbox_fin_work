@@ -23,7 +23,7 @@ yc compute instance create \
   --zone ru-central1-a \
   --network-interface subnet-name=default-ru-central1-a,nat-ip-version=ipv4,security-group-ids=[$SG_ID] \
   --create-boot-disk image-folder-id=standard-images,image-family=ubuntu-2204-lts,size=20 \
-  --metadata-from-file user-data=cloud-config.yaml
+  --metadata-from-file user-data=./deploy/CA.yaml
 
 # 3. Создание VPN-server (VPN-шлюз)
 yc compute instance create \
@@ -31,7 +31,7 @@ yc compute instance create \
   --zone ru-central1-a \
   --network-interface subnet-name=default-ru-central1-a,nat-ip-version=ipv4,security-group-ids=[$SG_ID] \
   --create-boot-disk image-folder-id=standard-images,image-family=ubuntu-2204-lts,size=20 \
-  --metadata-from-file user-data=cloud-config.yaml
+  --metadata-from-file user-data=./deploy/vpn.yaml
 
 # 4. Создание Monitoring-server (Мониторинг и Бэкапы)
 yc compute instance create \
@@ -39,6 +39,6 @@ yc compute instance create \
   --zone ru-central1-a \
   --network-interface subnet-name=default-ru-central1-a,nat-ip-version=ipv4,security-group-ids=[$SG_ID] \
   --create-boot-disk image-folder-id=standard-images,image-family=ubuntu-2204-lts,size=20 \
-  --metadata-from-file user-data=cloud-config.yaml
+  --metadata-from-file user-data=./deploy/monitoring.yaml
 
 echo "Инфраструктура успешно создана! Все правила Firewall применены."
