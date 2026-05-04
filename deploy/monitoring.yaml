@@ -6,7 +6,7 @@ users:
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
     ssh-authorized-keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDhwcgk8RfqCkCOzFVAS8nf+jvU6ekWpDZ+rJzj+cLQh1k0PHYxCy3bZGXxtdXahUpw+9FxMJNZLt9sW3G41scUALTEJ2ZIhApCGB5alKflA0EI/jbmU0FdiqAu1sHRbbm5tRhR+KVAOefXL266BD3uukQ/cAyOqc1Di8+xCXSg9YE79345Brs2VLuQHuVtk25SuQ3mEyytv8hbZoAAAUFwGubuOfgSJixz9EsqjruIubqjDVKZAa3Cznz0Eaxv85qGxc9+uToy+OY9LL3Sp1ouEdNeonNr4K/Gu6xARGR6dXh3UwzGjpAAO9x8XgDEui94ZbU4QwUMmGi1JYHHZMVZlqsLj5BE0ibimCttU/mShe3Ut2jgrNRGap2t/+89wwjdXKLwumhA6yx1uWv30PUMqeNbwPB19WG5/k7Be1yIA+VmZ9QS4yYld2aXWO4aKV1wmSJE4SQV56GeMRe+5HiOb0PBdTCiFqKsSMvkFcBxzb5G11lbJ94ksCG7eYAxwsDUA4fNgL5THMlBqz230AMig9FbGwoeaT8qC/FRJO1LHbXxmQtX5EoTOxTERWDg8K6iFPdlwJdqji4f/uuzCozBK3jsVnquucHpiN8/cwmpxfqPrX/kiDLQ0Eps/OAtGSqfkeg6GRZ6MXSV34n6lJn6zm+5+NRgCLcvCYyN4zb/qw== ubuntu@adminbd
-      # ЗАМЕНИТЕ ЭТУ СТРОКУ НА ВАШ ПУБЛИЧНЫЙ SSH-КЛЮЧ
+    # ЗАМЕНИТЕ ЭТУ СТРОКУ НА ВАШ ПУБЛИЧНЫЙ SSH-КЛЮЧ
 
 packages:
   - docker.io
