@@ -18,6 +18,7 @@
 | **ca-server** | Удостоверяющий центр (Easy-RSA) | 89.169.137.5 |
 | **vpn-server** | Шлюз доступа (OpenVPN) | 111.88.246.94 |
 | **monitoring-server** | Метрики (Prometheus+Grafana) и Borg Repo | 62.84.125.193 |
+
 *\* Примечание: IP-адреса назначаются динамически при запуске скрипта `setup_infrastructure.sh`.*
 
 ## 4. Сетевая безопасность (Firewall)
